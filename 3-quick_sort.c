@@ -62,6 +62,7 @@ int partition(int *array, int lo, int hi, size_t size)
 void quick_s(int *array, int lo, int hi, size_t size)
 {
 	int pivot;
+
 	if (lo < hi)
 	{
 		pivot = partition(array, lo, hi, size);
